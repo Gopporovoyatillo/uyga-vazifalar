@@ -12,3 +12,5 @@ mevalar = ['olma','anor','anjir','shaftoli',"o'rik","tarvuz","qovun","banan"]
 
 mevalar2=list(filter(lambda meva:(meva.startswith('a') and meva.endswith('r')), mevalar))
 print(mevalar2)
+
+#boshi a harfili va oxiri r harifli bo'lgan so'zlarni consolga chiqaradi 
